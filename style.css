@@ -24,6 +24,17 @@ form{
     color: aliceblue; margin-top: 0%;
     font-size: 2.5em;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.image{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 10px;
+    background-size: cover;
+}
 #Username{
     width: 50vw;
     border-radius: 20px;
@@ -49,6 +60,10 @@ form{
    background-image: linear-gradient(to bottom,rgba(236, 208, 208, 0.142),rgba(29, 27, 27, 0.541));
    padding: 5vh;
    text-align: center;
+}
+#user-con{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .user-inner{
     background-color: white;
@@ -84,5 +99,9 @@ form{
         height: 5vh;
         padding:5px;
     
+    }
+    #user-con{
+        display: grid;
+        grid-template-columns: auto;
     }
 }
